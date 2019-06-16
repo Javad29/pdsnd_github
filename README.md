@@ -1,17 +1,24 @@
-### Python code created on : 05-23-2019 	README created on: 06-16-2019
+#  Dates of creation:  
+*  Python code created on : 05-23-2019 	
+*  README created on: 06-16-2019
 
 
-### Creating an interactive bikeshare-data-analysis tool
+#  Title:
+*Creating an interactive bikeshare-data-analysis tool*
 
 
-### Based on the data provided by a bikeshare company on three US cities that the company operates in, a python code for data analysis is developed. The code allows the user to analyze the data in an engaging and interactive way
+#  Purpose:
+Based on the data provided by a bikeshare company on three US cities that the company operates in, a python code for data analysis is developed. The code allows the user to analyze the data in an engaging and interactive way
 
 
-### Files:
-jm-bikeshare.py: Python code for analysis 
+# Files:
+* jm-bikeshare.py: Python code for analysis
+
+#  Software Requirements:
+*  Command line terminal for execution of python
 
 
-### Credits:
+#  Credits:
 This source was used for understanding the sum-function: https://stackoverflow.com/questions/41286569/get-total-of-pandas-column (last accessed: 05-20-2019)
 This source was used for understanding the mean-function: https://stackoverflow.com/questions/31037298/pandas-get-column-average-mean (last accessed: 05-20-2019)
 This source was used for understanding functions for most recent and earliest years: https://stackoverflow.com/questions/29886609/find-most-recent-date-in-pandas-dataframe (last accessed: 05-20-2019)
