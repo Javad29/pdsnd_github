@@ -4,11 +4,11 @@
 ### Creating an interactive bikeshare-data-analysis tool
 
 
-### Based on the data provided by a bikeshare company on three US cities that the company operates in a python code 
-for data analysis is developed. The code allows the user to analyze the data in an engaging and interactive way
+### Based on the data provided by a bikeshare company on three US cities that the company operates in, a python code 
+### for data analysis is developed. The code allows the user to analyze the data in an engaging and interactive way
 
 
-### Files
+### Files:
 jm-bikeshare.py: Python code for analysis 
 
 
