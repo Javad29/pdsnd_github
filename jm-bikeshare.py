@@ -17,7 +17,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     """
-    while loops are being used in combination with if conditions in order to handle the         cases where the user input is invalid
+    while loops are being used in combination with if conditions in order to handle the cases where the user input is invalid
     """
 
     cities = ('chicago', 'new york city', 'washington')
@@ -130,10 +130,9 @@ def trip_duration_stats(df):
     start_time = time.time()
 
     tot_travel_time = df['Trip Duration'].sum()# TO DO: display total travel time
-    print('The total travel time was: ', tot_travel_time)
 
     avg_travel_time = df['Trip Duration'].mean() # TO DO: display mean travel time
-    print('The average travel time was: ', avg_travel_time)
+    print("The total travel time was: {}\nThe average travel time was: {}\n".format(tot_travel_time, avg_travel_time))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
