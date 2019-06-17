@@ -22,7 +22,7 @@ def get_filters():
 
     cities = ('chicago', 'new york city', 'washington')
     months = ('all', 'january', 'february', 'march', 'april', 'may', 'june')
-    days = ('all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday',           'sunday')
+    days = ('all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday')
 
 # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
@@ -111,14 +111,12 @@ def station_stats(df):
     start_time = time.time()
 
     mc_start_station = df['Start Station'].mode()[0] # TO DO: display most commonly used         start station
-    print('The most commonly used start station was: ', mc_start_station)
 
     mc_end_station = df['End Station'].mode()[0] # TO DO: display most commonly used end         station
-    print('The most commonly used end station was: ', mc_end_station)
 
     com_strt_end = df['Start Station'] + ' - ' + df['End Station'] # TO DO: display most         frequent combination of start station and end station trip
     frq_com_strt_end = com_strt_end.mode()[0]
-    print('The most frequent combination of start and end stations was: ', frq_com_strt_end)
+    print("The most commonly used start station was: {}\nThe most commonly used end station was: {}\nThe most frequent combination of start and end stations was: {}\n".format(mc_start_station, mc_end_station, frq_com_strt_end))
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
