@@ -15,7 +15,7 @@ Based on the data provided by a bikeshare company on three US cities that the co
 * jm-bikeshare.py: Python code for analysis
 
 #  Software Requirements:
-*  Command line terminal for execution of python
+.*  Command line terminal for execution of python
 
 
 #  Credits:
@@ -40,3 +40,5 @@ Based on the data provided by a bikeshare company on three US cities that the co
 8. This [source](https://help.github.com/en/articles/about-readmes) was used to get further information on READMEs (last accessed on 06-16-2019)
 
 9. Sources [three](https://en.support.wordpress.com/markdown-quick-reference/) and [four](https://guides.github.com/features/mastering-markdown/) were used to get further Information on markdowns (last accessed on 06-16-2019)
+
+10. This [source](https://pybit.es/refactoring.html) was used to better understand the refactoring concept (last accessed on 06-18-2019)
