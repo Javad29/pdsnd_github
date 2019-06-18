@@ -42,3 +42,5 @@ Based on the data provided by a bikeshare company on three US cities that the co
 9. Sources [three](https://en.support.wordpress.com/markdown-quick-reference/) and [four](https://guides.github.com/features/mastering-markdown/) were used to get further Information on markdowns (last accessed on 06-16-2019)
 
 10. This [source](https://pybit.es/refactoring.html) was used to better understand the refactoring concept (last accessed on 06-18-2019)
+
+11. This [source](https://stackoverflow.com/questions/52195877/how-can-i-fix-git-commit-error-waiting-for-your-editor-to-close-the-file-wi) was used to understand how to force a commit when an error message emerges (last accessed on 06-18-2019)
