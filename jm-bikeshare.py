@@ -17,12 +17,12 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     """
-    while loops are being used in combination with if conditions in order to handle the         cases where the user input is invalid
+    while loops are being used in combination with if conditions in order to handle the cases where the user input is invalid
     """
 
     cities = ('chicago', 'new york city', 'washington')
     months = ('all', 'january', 'february', 'march', 'april', 'may', 'june')
-    days = ('all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday',           'sunday')
+    days = ('all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday')
 
 # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
@@ -93,14 +93,12 @@ def time_stats(df):
     start_time = time.time()
 
     mc_month = df ['month'].mode()[0]# TO DO: display the most common month
-    print('The most common month (as an int.) was: ', mc_month)
 
     mc_day_of_week = df['day_of_week'].mode()[0] # TO DO: display the most common day of         week
-    print('The most common day of week was: ', mc_day_of_week)
 
     df['Start Hour'] = df['Start Time'].dt.hour
     mc_hour = df['Start Hour'].mode()[0]# TO DO: display the most common start hour
-    print('The most common start hour was: ', mc_hour)
+    print("Most common month (as an int.): {}\nMost common day of week: {}\nMost common start hour: {}\n".format(mc_month, mc_day_of_week, mc_hour))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -113,14 +111,12 @@ def station_stats(df):
     start_time = time.time()
 
     mc_start_station = df['Start Station'].mode()[0] # TO DO: display most commonly used         start station
-    print('The most commonly used start station was: ', mc_start_station)
 
     mc_end_station = df['End Station'].mode()[0] # TO DO: display most commonly used end         station
-    print('The most commonly used end station was: ', mc_end_station)
 
     com_strt_end = df['Start Station'] + ' - ' + df['End Station'] # TO DO: display most         frequent combination of start station and end station trip
     frq_com_strt_end = com_strt_end.mode()[0]
-    print('The most frequent combination of start and end stations was: ', frq_com_strt_end)
+    print("The most commonly used start station was: {}\nThe most commonly used end station was: {}\nThe most frequent combination of start and end stations was: {}\n".format(mc_start_station, mc_end_station, frq_com_strt_end))
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -134,10 +130,9 @@ def trip_duration_stats(df):
     start_time = time.time()
 
     tot_travel_time = df['Trip Duration'].sum()# TO DO: display total travel time
-    print('The total travel time was: ', tot_travel_time)
 
     avg_travel_time = df['Trip Duration'].mean() # TO DO: display mean travel time
-    print('The average travel time was: ', avg_travel_time)
+    print("The total travel time was: {}\nThe average travel time was: {}\n".format(tot_travel_time, avg_travel_time))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
