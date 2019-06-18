@@ -31,11 +31,11 @@ Based on the data provided by a bikeshare company on three US cities that the co
 
 6. This [source](https://www.ritchieng.com/pandas-randomly-sample-rows/) was used to understand how to retrieve random data of 5 rows (last accessed: 05-23-2019)  
 
-7. Ressources [one](https://www.youtube.com/watch?v=0WfDe51pUU0) (last accessed on 06-15-2019) and [two](https://stackoverflow.com/questions/3833561/why-doesnt-git-ignore-my-specified-file/3833675) (last accessed on 06-15-2019) were used to get a better understanding of the .gitignore concept:
+7. This [source](https://www.youtube.com/watch?v=0WfDe51pUU0) (last accessed on 06-15-2019) and this [source](https://stackoverflow.com/questions/3833561/why-doesnt-git-ignore-my-specified-file/3833675) (last accessed on 06-15-2019) were used to get a better understanding of the .gitignore concept
 
 8. This [source](https://help.github.com/en/articles/about-readmes) was used to get further information on READMEs (last accessed on 06-16-2019)
 
-9. Sources [three](https://en.support.wordpress.com/markdown-quick-reference/) and [four](https://guides.github.com/features/mastering-markdown/) were used to get further Information on markdowns (last accessed on 06-16-2019)
+9. This [source](https://en.support.wordpress.com/markdown-quick-reference/) and this [source](https://guides.github.com/features/mastering-markdown/) were used to get further Information on markdowns (last accessed on 06-16-2019)
 
 10. This [source](https://pybit.es/refactoring.html) was used to better understand the refactoring concept (last accessed on 06-18-2019)
 
