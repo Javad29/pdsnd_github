@@ -15,7 +15,7 @@ Based on the data provided by a bikeshare company on three US cities that the co
 * jm-bikeshare.py: Python code for analysis
 
 #  Software Requirements:
-.*  Command line terminal for execution of python
+*  Command line terminal for execution of python
 
 
 #  Credits:
